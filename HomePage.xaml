@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App38Example.HomePage">
+    <Grid RowDefinitions="*,*">
+        <Image Source="" Aspect="AspectFit"/>
+        <StackLayout Grid.Row="1">
+
+            <StackLayout HorizontalOptions="Center" Grid.Column="1" Orientation="Horizontal" Spacing="10">
+                <Label Text="UMION" FontSize="34" FontFamily="Cabin" TextColor="Chocolate"/>
+
+            </StackLayout>
+            <Label Text="life better" FontSize="11" CharacterSpacing="5.5" WidthRequest="130" HorizontalOptions="Center" TextColor="Brown"/>
+
+
+            <Button  Text="Login"  Clicked="Login" TextColor="WhiteSmoke" BackgroundColor="Chocolate" WidthRequest="300" HeightRequest="50" HorizontalOptions="Center" CornerRadius="30"/>
+            <Button   Text=" Create new account" Clicked="SignUp" TextColor="Black" BorderColor="Chocolate" BorderWidth="1" BackgroundColor="White" WidthRequest="300" HeightRequest="50" HorizontalOptions="Center" CornerRadius="30"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>
